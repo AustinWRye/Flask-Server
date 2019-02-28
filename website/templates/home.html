@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% extends "layout.html" %}
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-4.3.1/css/bootstrap.min.css') }}">
-	
-	<!-- jQuery JS -->
-	<script src="{{ url_for('static', filename='jquery-3.3.1/js/jquery.min.js') }}"></script>
-	<!-- Popper JS -->
-	<script src="{{ url_for('static', filename='popper-1.14.7/js/popper.min.js') }}"></script>
-	<!-- Bootstrap JS -->
-	<script src="{{ url_for('static', filename='bootstrap-4.3.1/js/bootstrap.min.js') }}"></script>
+{% block content %}
 
-	<title>{{ title }}</title>
-</head>
-<body>
-	Hello World!
-</body>
-</html>
+<h1>Hello World!</h1>
+
+{% endblock content %}

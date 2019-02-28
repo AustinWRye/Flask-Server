@@ -13,6 +13,7 @@
         2. [URL Building](#url-building)
         3. [Static Files](#static-files)
         4. [Rendering Templates](#rendering-templates)
+        5. [Template Inheritance](#template-inheritance)
     3. [Plugins](#plugins)
         1. [jQuery](#jquery)
         2. [Bootstrap](#bootstrap)
@@ -66,6 +67,7 @@ page), search engines (keywords), or other web services:
 # Routing
 Use the `route()` decorator to bind a function to a URL:
 ```python
+# routes.py
 @app.route('/')
 def hello():
     return 'Hello World!'
@@ -75,6 +77,7 @@ def hello():
 To build a URL to a specific function, use the url_for() function. It generates
 a URL to the given endpoint with the method provided:
 ```python
+# routes.py
 from flask import url_for
 
 @app.route('/')
@@ -102,6 +105,7 @@ To render a template, use the `render_template()` method, which takes a template
 name as the first argument and any additional arguments to load in the template:
 from flask import render_template
 ```python
+# routes.py
 from flask import render_template
 
 @app.route('/hello/')
@@ -119,6 +123,25 @@ app's directory. Here's an example template:
 {% else %}
     <h1>Hello, World!</h1>
 {% endif %}
+```
+
+# Template Inheritance
+Template inheritance allows you to build a base “skeleton” template that
+contains all the common elements of your site and defines blocks that child
+templates can override.
+```html
+<!-- layout.html -->
+...
+<div id="content">{% block content %}{% endblock %}</div>
+...
+```
+```html
+<!-- hello.html -->
+{% extends "layout.html" %}
+
+{% block content %}
+  <h1>Hello World!</h1>
+{% endblock %}
 ```
 
 # **Plugins**
