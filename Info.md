@@ -162,6 +162,19 @@ JavaScript plugins. Its also very useful for easily creating responsive designs.
 Popper.js is a positioning engine with the purpose of calculating the position
 of an element to make it possible to position it near a given reference element.
 
+# Sass
+Sass is a preprocessor scripting language that is interpreted or compiled into
+CSS to add power and elegance. It allows you to use variables, nested rules,
+mixins, inline imports, and more, all with a fully CSS-compatible syntax. This
+helps to keep large stylesheets well-organized, and get small stylesheets up and
+running quickly.
+
+Sass can be installed using ruby's gem package manager:
+```bash
+$ sudo apt install ruby-full
+$ sudo gem install sass
+```
+
 # **Extras**
 
 # Dependencies
