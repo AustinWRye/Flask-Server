@@ -1,3 +1,45 @@
-
+#home #intro {
+  background-image: url("/static/images/circuit-board.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  margin: 0; }
+  #home #intro .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white; }
+    #home #intro .center h1[name="name"] {
+      letter-spacing: 15px; }
+#home #my-work {
+  background: #191919;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #home #my-work .container {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    #home #my-work .container h3 {
+      letter-spacing: 10px;
+      padding-bottom: 60px; }
+    #home #my-work .container p {
+      padding-bottom: 60px; }
+#home #future {
+  background: white;
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #home #future .container {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    #home #future .container h5 {
+      padding-bottom: 20px; }
+    #home #future .container .links {
+      text-align: center; }
+      #home #future .container .links div {
+        padding: 40px; }
 
 /*# sourceMappingURL=home.css.map */

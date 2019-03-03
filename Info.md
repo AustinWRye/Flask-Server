@@ -179,6 +179,12 @@ $ sudo gem install sass
 
 # Dependencies
 
+## apt
+* `ruby-full`: ruby programming language with gem package manager
+
+## gem
+* `sass`: preprocessor scripting language for CSS
+
 ## pip3
 * `flask`: micro web framework
 
