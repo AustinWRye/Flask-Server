@@ -1,0 +1,16 @@
+.technologies {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    background: white;
+}
+
+.technologies span {
+    font-size: 22px;
+}
+
+.technologies img {
+    height: 30px;
+    margin: 2px 5px;
+}

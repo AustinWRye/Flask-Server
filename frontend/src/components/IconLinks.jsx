@@ -30,7 +30,7 @@ const IconLinks = () => {
                     >
                         <a href={iconLink.link}>
                             <Row>
-                                <img src={iconLink.icon} />
+                                <img src={iconLink.icon} alt={iconLink.name} />
                             </Row>
                             <Row>
                                 <span>{iconLink.name}</span>

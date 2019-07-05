@@ -12,7 +12,7 @@ const JumboImg = props => {
                     props.img +
                     ")"
             }}
-            className="img text-center vertical-center"
+            className="img text-center vertical-center jumbo-shadow"
         >
             {props.children}
         </Jumbotron>
