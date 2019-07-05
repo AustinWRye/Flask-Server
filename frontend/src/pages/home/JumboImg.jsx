@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Jumbotron, Container } from "react-bootstrap";
+import React from "react";
+import { Jumbotron } from "react-bootstrap";
 import "./JumboImg.css";
 
 const JumboImg = props => {

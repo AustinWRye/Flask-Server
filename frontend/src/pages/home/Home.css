@@ -1,3 +1,8 @@
 .intro {
     color: white;
 }
+
+.icon-items-position {
+    position: absolute;
+    bottom: 20%;
+}
