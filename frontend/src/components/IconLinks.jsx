@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./IconLinks.css";
-import GitHubIcon from "./icons/github-icon.png";
-import LinkedInIcon from "./icons/linkedin-icon.png";
+import GitHubIcon from "../icons/github-icon.png";
+import LinkedInIcon from "../icons/linkedin-icon.png";
 
 const iconLinks = [
     {

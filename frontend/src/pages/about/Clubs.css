@@ -1,0 +1,31 @@
+.clubs {
+    padding-bottom: 40px;
+}
+
+.clubs h2,
+.clubs h4 {
+    text-align: center;
+}
+
+.clubs h2 {
+    padding-top: 40px;
+}
+
+.clubs h4 {
+    padding-bottom: 15px;
+}
+
+.clubs img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.clubs .description {
+    padding-top: 20px;
+}
+
+.clubs p {
+    font-size: 20px;
+}

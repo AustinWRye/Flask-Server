@@ -1,0 +1,12 @@
+.section-header {
+    margin: 0;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #282828;
+    color: white;
+}
+
+.section-header h1 {
+    text-align: center;
+}

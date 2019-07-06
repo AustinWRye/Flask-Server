@@ -1,23 +1,23 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import ReactIcon from "../../components/icons/react-icon.png";
-import JavaScriptIcon from "../../components/icons/javascript-icon.png";
-import HTML5Icon from "../../components/icons/html5-icon.png";
-import CSS3Icon from "../../components/icons/css3-icon.png";
-import PythonIcon from "../../components/icons/python-icon.png";
-import JavaIcon from "../../components/icons/java-icon.png";
-import CppIcon from "../../components/icons/cpp-icon.png";
-import CIcon from "../../components/icons/c-icon.png";
-import NodeJSIcon from "../../components/icons/nodejs-icon.png";
-import CSharpIcon from "../../components/icons/csharp-icon.png";
-import GitIcon from "../../components/icons/git-icon.png";
-import SQLIcon from "../../components/icons/sql-icon.png";
-import AltiumDesignerIcon from "../../components/icons/altiumdesigner-icon.png";
-import EagleIcon from "../../components/icons/eagle-icon.png";
-import ArduinoIcon from "../../components/icons/arduino-icon.png";
-import RaspberryPiIcon from "../../components/icons/raspberrypi-icon.png";
-import LinuxIcon from "../../components/icons/linux-icon.png";
+import ReactIcon from "../../icons/react-icon.png";
+import JavaScriptIcon from "../../icons/javascript-icon.png";
+import HTML5Icon from "../../icons/html5-icon.png";
+import CSS3Icon from "../../icons/css3-icon.png";
+import PythonIcon from "../../icons/python-icon.png";
+import JavaIcon from "../../icons/java-icon.png";
+import CppIcon from "../../icons/cpp-icon.png";
+import CIcon from "../../icons/c-icon.png";
+import NodeJSIcon from "../../icons/nodejs-icon.png";
+import CSharpIcon from "../../icons/csharp-icon.png";
+import GitIcon from "../../icons/git-icon.png";
+import SQLIcon from "../../icons/sql-icon.png";
+import AltiumDesignerIcon from "../../icons/altiumdesigner-icon.png";
+import EagleIcon from "../../icons/eagle-icon.png";
+import ArduinoIcon from "../../icons/arduino-icon.png";
+import RaspberryPiIcon from "../../icons/raspberrypi-icon.png";
+import LinuxIcon from "../../icons/linux-icon.png";
 import "./Technologies.css";
 
 const Technologies = () => {

@@ -1,0 +1,31 @@
+.societies {
+    padding-bottom: 40px;
+}
+
+.societies h2,
+.societies h4 {
+    text-align: center;
+}
+
+.societies h2 {
+    padding-top: 40px;
+}
+
+.societies h4 {
+    padding-bottom: 15px;
+}
+
+.societies img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.societies .description {
+    padding-top: 20px;
+}
+
+.societies p {
+    font-size: 20px;
+}

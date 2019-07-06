@@ -1,8 +1,10 @@
 .intro {
-    padding-top: 220px;
+    margin-bottom: 80px;
     color: white;
 }
 
 .intro .icon-items-position {
-    padding-top: 150px;
+    position: absolute;
+    bottom: 25%;
+    transform: translateX(-15px);
 }

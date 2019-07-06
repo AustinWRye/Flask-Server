@@ -1,13 +1,18 @@
 import React, { Component } from "react";
-import NavigationBar from "../../components/NavigationBar";
-import "./About.css";
+
+import MainHeader from "./MainHeader";
+import SectionHeader from "./SectionHeader";
+import Clubs from "./Clubs";
+import Societies from "./Societies";
 
 class About extends Component {
     render() {
         return (
             <React.Fragment>
-                <NavigationBar />
-                <p>About</p>
+                <MainHeader>Clubs</MainHeader>
+                <Clubs />
+                <SectionHeader>Societies</SectionHeader>
+                <Societies />
             </React.Fragment>
         );
     }
