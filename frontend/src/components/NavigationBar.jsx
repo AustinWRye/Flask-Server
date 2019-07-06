@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
+
+import Resume from "../files/resume.pdf";
 import "./Navigation.css";
 
 class NavigationBar extends Component {
@@ -52,6 +54,21 @@ class NavigationBar extends Component {
                         >
                             About
                         </NavLink>
+                        <NavLink
+                            to="/projects"
+                            activeClassName="current-link"
+                            className={"link " + scrolled}
+                        >
+                            Projects
+                        </NavLink>
+                        <Link
+                            to={Resume}
+                            target="_blank"
+                            className={"link " + scrolled}
+                            download
+                        >
+                            Resume
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -1,0 +1,13 @@
+.main-header {
+    margin: 0;
+    max-width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background: #282828;
+    color: white;
+}
+
+.main-header h1 {
+    padding-top: 50px;
+    text-align: center;
+}

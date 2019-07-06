@@ -66,7 +66,7 @@ const Clubs = () => {
                             system, GPS tracking, temperature sensors, drone
                             deployment, engine ignition, etc.
                         </li>
-                        <li>Programed ARM microcontrollers in embedded C</li>
+                        <li>Programmed ARM microcontrollers in embedded C</li>
                         <li>Designed and integrated custom PCBs using Eagle</li>
                     </ul>
                 </Col>
