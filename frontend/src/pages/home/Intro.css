@@ -1,8 +1,8 @@
 .intro {
+    padding-top: 220px;
     color: white;
 }
 
-.icon-items-position {
-    position: absolute;
-    bottom: 20%;
+.intro .icon-items-position {
+    padding-top: 150px;
 }

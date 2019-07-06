@@ -5,6 +5,7 @@ import JumboImg from "./JumboImg";
 import BlueLagoon from "./blue-lagoon-moonlight-iceland.jpg";
 import Intro from "./Intro";
 import Technologies from "./Technologies";
+import Footer from "../../components/Footer";
 
 class Home extends Component {
     render() {
@@ -15,6 +16,7 @@ class Home extends Component {
                     <Intro />
                 </JumboImg>
                 <Technologies />
+                <Footer />
             </React.Fragment>
         );
     }
