@@ -1,3 +1,31 @@
-.content {
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Backgorund */
+body {
+    background-image: url(./images/blue-lagoon-moonlight-iceland.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Footer (stick to bottom) */
+#content {
     min-height: calc(100vh - 200px);
+}
+
+/* Section */
+.section {
+    text-align: center;
+}
+
+.section.section-trans {
+    color: #fff;
+}
+
+.section.section-dark {
+    background: #39373a;
+    color: #fff;
 }

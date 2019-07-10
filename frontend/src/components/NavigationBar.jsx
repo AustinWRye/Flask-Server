@@ -3,6 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
 import Resume from "../files/resume.pdf";
+import RyeLogoWhite from "../icons/rye-logo-white.png";
+import RyeLogoBlack from "../icons/rye-logo-black.png";
 import "./Navigation.css";
 
 class NavigationBar extends Component {
@@ -29,7 +31,17 @@ class NavigationBar extends Component {
             <Navbar expand="lg" fixed="top" className={scrolled}>
                 <Navbar.Brand>
                     <Link to="/" className={"brand link " + scrolled}>
-                        Austin Rye
+                        <img
+                            src={RyeLogoWhite}
+                            alt=""
+                            className="brand-logo-white"
+                        />
+                        <img
+                            src={RyeLogoBlack}
+                            alt=""
+                            className="brand-logo-black"
+                        />
+                        <span className="brand-name">Austin Rye</span>
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar-nav" />
