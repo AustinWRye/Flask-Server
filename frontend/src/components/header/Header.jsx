@@ -42,6 +42,11 @@ class Header extends Component {
                         <Container>
                             <Row>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                <Col className="logo-collapse">
+                                    <Link to="#intro" className="link">
+                                        <img src={RyeLogo} alt="" />
+                                    </Link>
+                                </Col>
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Col>
                                         <Link to="#about" className="link">
@@ -55,11 +60,13 @@ class Header extends Component {
                                             <div className="link-select" />
                                         </Link>
                                     </Col>
-                                    <Col className="logo">
-                                        <Link to="#intro" className="link">
-                                            <img src={RyeLogo} alt="" />
-                                        </Link>
-                                    </Col>
+                                </Navbar.Collapse>
+                                <Col className="logo">
+                                    <Link to="#intro" className="link">
+                                        <img src={RyeLogo} alt="" />
+                                    </Link>
+                                </Col>
+                                <Navbar.Collapse id="basic-navbar-nav">
                                     <Col>
                                         <Link to="#skills" className="link">
                                             SKILLS
