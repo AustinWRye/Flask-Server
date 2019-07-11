@@ -4,19 +4,24 @@ body {
     font-family: sans-serif;
 }
 
-/* Backgorund */
-body {
-    background-image: url(./images/blue-lagoon-moonlight-iceland.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
 /* Footer (stick to bottom) */
 #content {
     min-height: calc(100vh - 200px);
 }
 
-/* Section */
+/* Backgorunds */
+body {
+    background: #39373a;
+}
+
+.main-bg {
+    background-image: url(./images/blue-lagoon-moonlight-iceland.jpg);
+    background-attachment: fixed;
+    background-size: 102%;
+    background-repeat: no-repeat;
+}
+
+/* Sections */
 .section {
     text-align: center;
 }
@@ -28,4 +33,96 @@ body {
 .section.section-dark {
     background: #39373a;
     color: #fff;
+}
+
+/* Headers */
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+@media (min-width: 1200px) {
+    .section#intro > .container {
+        padding: 250px 0 200px 0;
+    }
+
+    .section .container {
+        padding: 130px 0;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .section#intro > .container {
+        padding: 180px 0 140px 0;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .section#intro > .container {
+        padding: 120px 0 90px 0;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .section#intro > .container {
+        padding: 70px 0 40px 0;
+    }
+
+    h1 {
+        font-size: 42px;
+        margin: 10px 0 5px 0 !important;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin: 10px 0 5px 0 !important;
+    }
+
+    #intro .list-social {
+        margin: 30px 0 5px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-bg {
+        background-size: 600px;
+        background-position-x: 50%;
+    }
+
+    .section#intro > .container {
+        padding: 70px 15px 40px 15px;
+    }
+
+    h1 {
+        font-size: 38px;
+        margin: 10px 0 5px 0 !important;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 10px 0 5px 0 !important;
+    }
+
+    #intro .list-social {
+        margin: 30px 0 5px 0;
+    }
 }

@@ -1,16 +1,10 @@
-#intro .container {
-    padding: 200px 0 150px 0;
-}
-
 #intro .subtitle {
     margin: 20px 0 10px 0;
-    font-size: 42px;
 }
 
 #intro .title {
     margin: 20px 0 10px 0;
     line-height: 1.1;
-    font-size: 63px;
     font-weight: bold;
 }
 
@@ -22,4 +16,34 @@
 #intro .list-social {
     margin: 40px 0 10px 0;
     padding: 0;
+}
+
+@media (min-width: 1200px) {
+    #intro .seperator {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #intro .seperator {
+        width: 40%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #intro .seperator {
+        width: 45%;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    #intro .seperator {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    #intro .seperator {
+        width: 270px;
+    }
 }
