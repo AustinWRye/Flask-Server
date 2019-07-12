@@ -25,6 +25,7 @@ class Header extends Component {
     };
 
     handleScroll = () => {
+        // Sticky Navbar
         if (window.pageYOffset >= this.state.sticky) {
             this.refs.header.classList.add("sticky");
             this.refs.headerFill.classList.add("fill");
@@ -75,7 +76,7 @@ class Header extends Component {
                                     </Col>
                                     <Col>
                                         <Link to="#work" className="link">
-                                            WORK
+                                            EXPERIENCE
                                             <div className="link-select" />
                                         </Link>
                                     </Col>

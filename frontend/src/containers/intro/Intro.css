@@ -9,8 +9,7 @@
 }
 
 #intro .seperator {
-    border-top: 5px solid rgba(255, 255, 255, 0.75);
-    width: 30%;
+    position: relative;
 }
 
 #intro .list-social {
@@ -18,32 +17,47 @@
     padding: 0;
 }
 
+#intro .title {
+    transition: all 0.7s ease-in-out;
+}
+
+#intro .title.hide {
+    position: relative;
+    transform: translate3d(0, 20px, 0);
+    opacity: 0;
+}
+
 @media (min-width: 1200px) {
     #intro .seperator {
+        border-top: 5px solid rgba(255, 255, 255, 0.75);
         width: 35%;
     }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
     #intro .seperator {
+        border-top: 4.8px solid rgba(255, 255, 255, 0.75);
         width: 40%;
     }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
     #intro .seperator {
+        border-top: 4.6px solid rgba(255, 255, 255, 0.75);
         width: 45%;
     }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
     #intro .seperator {
+        border-top: 4.4px solid rgba(255, 255, 255, 0.75);
         width: 50%;
     }
 }
 
 @media (max-width: 575px) {
     #intro .seperator {
-        width: 270px;
+        border-top: 4.2px solid rgba(255, 255, 255, 0.75);
+        width: 220px;
     }
 }

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Row, Modal, Button } from "react-bootstrap";
+import { Modal, Button } from "react-bootstrap";
 
 class SocialEmail extends Component {
     state = {

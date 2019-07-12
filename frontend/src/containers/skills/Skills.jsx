@@ -1,16 +1,16 @@
 import React from "react";
 
 import ContentSection from "../../components/content-section/ContentSection";
-import "./About.css";
+import "./Skills.css";
 
-const About = () => {
+const Skills = () => {
     return (
-        <section id="about" className="section section-white">
+        <section id="skills" className="section section-white">
             <ContentSection>
-                <h2 className="title">ABOUT</h2>
+                <h2 className="title">SKILLS</h2>
             </ContentSection>
         </section>
     );
 };
 
-export default About;
+export default Skills;

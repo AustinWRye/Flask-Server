@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import SocialGeneral from "./SocialGeneral";
 import SocialResume from "./SocialResume";
