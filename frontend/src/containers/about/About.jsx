@@ -11,7 +11,7 @@ const About = () => {
                 <p className="quote">
                     “Success is no accident. It is hard work, perseverance,
                     learning, studying, sacrifice and most of all, love of what
-                    you are doing or learning to do.”
+                    you are doing.”
                 </p>
                 <p>
                     My name is Austin Rye. I'm an electrical engineering student

@@ -1,5 +1,5 @@
 #skills .skills-group {
-    margin: 20px 20px;
+    margin: 40px 20px 0 20px;
     background: white;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
@@ -10,10 +10,6 @@
 
 #skills .skills-group .skill {
     margin: 10px;
-}
-
-#skills .skills-group .row {
-    /* margin: 0 5px; */
 }
 
 #skills .skills-group .skill img {
