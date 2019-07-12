@@ -37,7 +37,7 @@ body {
 
 .section.section-white {
     background: #ffffff;
-    color: #616161;
+    color: #404040;
 }
 
 .section.section-light-grey {
@@ -68,7 +68,7 @@ body {
     }
 
     p {
-        font-size: 30px;
+        font-size: 22px;
     }
 }
 
@@ -90,7 +90,7 @@ body {
     }
 
     p {
-        font-size: 26px;
+        font-size: 20px;
     }
 }
 
@@ -112,7 +112,7 @@ body {
     }
 
     p {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 

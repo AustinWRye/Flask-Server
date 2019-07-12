@@ -20,7 +20,14 @@
     right: 0;
 }
 
+.content-section p {
+    margin: 1.2em;
+}
+
 @media (min-width: 1200px) {
+    .content-section h2 {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
