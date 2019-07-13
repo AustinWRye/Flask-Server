@@ -1,0 +1,203 @@
+#experience .experience-group .title,
+#experience .experience-group .organization,
+#experience .experience-group .date {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    color: #444649;
+}
+
+#experience .experience-group .title h3 {
+    font-weight: bold;
+}
+
+#experience .experience-group .organization h4 {
+    font-style: italic;
+}
+
+#experience .experience-group .body {
+    margin: 0;
+    width: 100%;
+}
+
+#experience .experience-group .content {
+    width: 100%;
+    text-align: left;
+}
+
+#experience .experience-group .image {
+    max-width: 40%;
+    padding: 0;
+    background: white;
+}
+
+#experience .experience-group .image img {
+    width: 100%;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+#experience .experience-group .content {
+    max-width: 60%;
+}
+
+@media (min-width: 1200px) {
+    #experience .experience-group {
+        margin: 50px 10px 20px 10px;
+    }
+
+    #experience .experience-group .title h3,
+    #experience .experience-group .organization h4 {
+        margin-bottom: 4px;
+    }
+
+    #experience .experience-group .image {
+        margin: 20px;
+    }
+
+    #experience .experience-group .content {
+        margin: 20px;
+    }
+
+    #experience .experience-group .content p {
+        margin-bottom: 10px;
+    }
+
+    #experience .experience-group .content ul {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #experience .experience-group {
+        margin: 32px 10px 20px 10px;
+    }
+
+    #experience .experience-group .title h3,
+    #experience .experience-group .organization h4 {
+        margin-bottom: 4px;
+    }
+
+    #experience .experience-group .image {
+        margin: 10px 16px;
+    }
+
+    #experience .experience-group .content {
+        margin: 10px 16px;
+    }
+
+    #experience .experience-group .content p {
+        margin-bottom: 8px;
+    }
+
+    #experience .experience-group .content ul {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #experience .experience-group {
+        margin: 28px 10px 20px 10px;
+    }
+
+    #experience .experience-group .title h3,
+    #experience .experience-group .organization h4 {
+        margin-bottom: 4px;
+    }
+
+    #experience .experience-group .image {
+        margin: 8px 12px;
+    }
+
+    #experience .experience-group .content {
+        margin: 8px 12px;
+    }
+
+    #experience .experience-group .content p {
+        margin-bottom: 8px;
+    }
+
+    #experience .experience-group .content ul {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    #experience .experience-group {
+        margin: 20px 10px 45px 10px;
+    }
+
+    #experience .experience-group .title h3,
+    #experience .experience-group .organization h4 {
+        margin-bottom: 3px;
+    }
+
+    #experience .experience-group .body {
+        display: block;
+    }
+
+    #experience .experience-group .image {
+        margin: 12px;
+        width: auto;
+        max-width: unset;
+    }
+
+    #experience .experience-group .image img {
+        max-width: 100%;
+        max-height: 300px;
+        width: unset;
+    }
+
+    #experience .experience-group .content {
+        margin: 0 6px;
+        max-width: 100%;
+    }
+
+    #experience .experience-group .content p {
+        margin-bottom: 4px;
+    }
+
+    #experience .experience-group .content ul {
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 575px) {
+    #experience .experience-group {
+        margin: 20px 10px 40px 10px;
+    }
+
+    #experience .experience-group .title h3,
+    #experience .experience-group .organization h4 {
+        margin-bottom: 2px;
+    }
+
+    #experience .experience-group .body {
+        display: block;
+    }
+
+    #experience .experience-group .image {
+        margin: 12px;
+        width: auto;
+        max-width: unset;
+    }
+
+    #experience .experience-group .image img {
+        max-width: 100%;
+        max-height: 250px;
+        width: unset;
+    }
+
+    #experience .experience-group .content {
+        margin: 0 6px;
+        max-width: 100%;
+    }
+
+    #experience .experience-group .content p {
+        margin-bottom: 4px;
+    }
+
+    #experience .experience-group .content ul {
+        margin-bottom: 4px;
+    }
+}

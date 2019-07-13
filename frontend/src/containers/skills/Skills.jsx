@@ -6,6 +6,7 @@ import CppIcon from "../../icons/cpp.png";
 import CIcon from "../../icons/c.png";
 import JavaIcon from "../../icons/java.png";
 import BashIcon from "../../icons/bash.png";
+import AssemblyIcon from "../../icons/assembly.png";
 
 import HTML5Icon from "../../icons/html5.png";
 import CSS3Icon from "../../icons/css3.png";
@@ -13,6 +14,7 @@ import JavaScriptIcon from "../../icons/javascript.png";
 import BootstrapIcon from "../../icons/bootstrap.png";
 import ReactIcon from "../../icons/react.png";
 import FlaskIcon from "../../icons/flask.png";
+import DjangoIcon from "../../icons/django.png";
 import NodejsIcon from "../../icons/nodejs.png";
 import AspDotNetIcon from "../../icons/aspdotnet.png";
 import SQLIcon from "../../icons/sql.png";
@@ -24,6 +26,7 @@ import QtIcon from "../../icons/qt.png";
 import LinuxIcon from "../../icons/linux.png";
 import ArduinoIcon from "../../icons/arduino.png";
 import RaspberryPiIcon from "../../icons/raspberrypi.png";
+import AVRIcon from "../../icons/avr.png";
 
 import GitIcon from "../../icons/git.png";
 import GitHubIcon from "../../icons/github-black.svg";
@@ -64,6 +67,10 @@ class Skills extends Component {
                     {
                         name: "Bash",
                         icon: BashIcon
+                    },
+                    {
+                        name: "Assembly",
+                        icon: AssemblyIcon
                     }
                 ]
             },
@@ -93,6 +100,10 @@ class Skills extends Component {
                     {
                         name: "Flask",
                         icon: FlaskIcon
+                    },
+                    {
+                        name: "Django",
+                        icon: DjangoIcon
                     },
                     {
                         name: "Node.js",
@@ -139,6 +150,10 @@ class Skills extends Component {
                     {
                         name: "Raspberry Pi",
                         icon: RaspberryPiIcon
+                    },
+                    {
+                        name: "AVR",
+                        icon: AVRIcon
                     }
                 ]
             },

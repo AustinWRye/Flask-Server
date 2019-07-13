@@ -42,7 +42,7 @@ body {
 
 .section.section-light-grey {
     background: #f5f5f5;
-    color: #616161;
+    color: #404040;
 }
 
 @media (min-width: 1200px) {
@@ -71,8 +71,20 @@ body {
         font-size: 32px;
     }
 
+    h4 {
+        font-size: 26px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
     p {
         font-size: 22px;
+    }
+
+    li {
+        font-size: 19px;
     }
 }
 
@@ -97,8 +109,20 @@ body {
         font-size: 26px;
     }
 
+    h4 {
+        font-size: 23px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
     p {
         font-size: 20px;
+    }
+
+    li {
+        font-size: 17px;
     }
 }
 
@@ -123,8 +147,20 @@ body {
         font-size: 22px;
     }
 
+    h4 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
     p {
         font-size: 18px;
+    }
+
+    li {
+        font-size: 15px;
     }
 }
 
@@ -155,8 +191,20 @@ body {
         font-size: 18px;
     }
 
+    h4 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+
     p {
         font-size: 16px;
+    }
+
+    li {
+        font-size: 14px;
     }
 }
 
@@ -197,7 +245,19 @@ body {
         font-size: 16px;
     }
 
+    h4 {
+        font-size: 15px;
+    }
+
+    h6 {
+        font-size: 11px;
+    }
+
     p {
         font-size: 14px;
+    }
+
+    li {
+        font-size: 12px;
     }
 }
