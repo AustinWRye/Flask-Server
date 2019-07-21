@@ -29,11 +29,11 @@
 #experience .experience-group .image {
     max-width: 40%;
     padding: 0;
-    background: white;
 }
 
 #experience .experience-group .image img {
     width: 100%;
+    background: white;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
 }
 

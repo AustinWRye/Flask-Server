@@ -129,6 +129,10 @@
         background: rgba(57, 55, 58, 0.9);
     }
 
+    #header .link .link-select {
+        display: none;
+    }
+
     #header .logo {
         display: none;
     }

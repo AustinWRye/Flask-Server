@@ -1,13 +1,14 @@
 import React, { Component, Fragment } from "react";
-import { Link } from "react-router-dom";
 import { Navbar, Container, Row, Col } from "react-bootstrap";
 
+import Link from "./Link";
 import RyeLogo from "../../icons/rye-logo.png";
 import "./Header.css";
 
 class Header extends Component {
     state = {
-        sticky: null
+        sticky: null,
+        mainPage: window.location.pathname
     };
 
     componentDidMount() {
@@ -44,19 +45,19 @@ class Header extends Component {
                             <Row>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Col className="logo-collapse">
-                                    <Link to="#intro" className="link">
+                                    <Link hash="#intro" className="link">
                                         <img src={RyeLogo} alt="" />
                                     </Link>
                                 </Col>
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Col>
-                                        <Link to="#about" className="link">
+                                        <Link hash="#about" className="link">
                                             ABOUT
                                             <div className="link-select" />
                                         </Link>
                                     </Col>
                                     <Col>
-                                        <Link to="#projects" className="link">
+                                        <Link hash="#projects" className="link">
                                             PROJECTS
                                             <div className="link-select" />
                                         </Link>
@@ -69,13 +70,16 @@ class Header extends Component {
                                 </Col>
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Col>
-                                        <Link to="#skills" className="link">
+                                        <Link hash="#skills" className="link">
                                             SKILLS
                                             <div className="link-select" />
                                         </Link>
                                     </Col>
                                     <Col>
-                                        <Link to="#work" className="link">
+                                        <Link
+                                            hash="#experience"
+                                            className="link"
+                                        >
                                             EXPERIENCE
                                             <div className="link-select" />
                                         </Link>
