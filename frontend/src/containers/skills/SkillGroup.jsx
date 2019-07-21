@@ -8,9 +8,9 @@ const SkillGroup = props => {
         <div className="skills-group">
             <h3>{props.skillGroup.title}</h3>
             <Row>
-                {props.skillGroup.skills.map(skill => {
+                {props.skillGroup.skills.map((skill, id) => {
                     return (
-                        <Col className="skill">
+                        <Col key={id} className="skill">
                             <Row className="icon">
                                 <img src={skill.icon} alt="" />
                             </Row>

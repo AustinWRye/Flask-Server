@@ -42,6 +42,7 @@ class Skills extends Component {
     state = {
         skillsList: [
             {
+                id: 1,
                 title: "Languages",
                 skills: [
                     {
@@ -75,6 +76,7 @@ class Skills extends Component {
                 ]
             },
             {
+                id: 2,
                 title: "Web Development",
                 skills: [
                     {
@@ -120,6 +122,7 @@ class Skills extends Component {
                 ]
             },
             {
+                id: 3,
                 title: "App Development",
                 skills: [
                     {
@@ -137,6 +140,7 @@ class Skills extends Component {
                 ]
             },
             {
+                id: 4,
                 title: "Systems",
                 skills: [
                     {
@@ -158,6 +162,7 @@ class Skills extends Component {
                 ]
             },
             {
+                id: 5,
                 title: "Source Control",
                 skills: [
                     {
@@ -175,6 +180,7 @@ class Skills extends Component {
                 ]
             },
             {
+                id: 6,
                 title: "PCB Design",
                 skills: [
                     {
@@ -196,7 +202,12 @@ class Skills extends Component {
                 <ContentSection>
                     <h2 className="title">SKILLS</h2>
                     {this.state.skillsList.map(skillGroup => {
-                        return <SkillGroup skillGroup={skillGroup} />;
+                        return (
+                            <SkillGroup
+                                key={skillGroup.id}
+                                skillGroup={skillGroup}
+                            />
+                        );
                     })}
                 </ContentSection>
             </section>

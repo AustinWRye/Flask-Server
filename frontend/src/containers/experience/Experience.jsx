@@ -11,6 +11,7 @@ class Experience extends Component {
     state = {
         experienceList: [
             {
+                id: 1,
                 title: "RF and Wireless Systems Engineer",
                 organization: "RCMP Technical Operations",
                 date: "Sep 2018 - Apr 2019",
@@ -33,6 +34,7 @@ class Experience extends Component {
                 }
             },
             {
+                id: 2,
                 title: "Electrical Design Lead",
                 organization: "Carleton Planetary Robotics Team",
                 date: "Sep 2016 - Present",
@@ -50,6 +52,7 @@ class Experience extends Component {
                 }
             },
             {
+                id: 3,
                 title: "Computer Systems Engineering Member",
                 organization: "CUinSpace",
                 date: "Sep 2018 - Present",
@@ -75,6 +78,7 @@ class Experience extends Component {
                     {this.state.experienceList.map(experienceGroup => {
                         return (
                             <ExperienceGroup
+                                key={experienceGroup.id}
                                 experienceGroup={experienceGroup}
                             />
                         );

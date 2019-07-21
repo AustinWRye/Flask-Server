@@ -23,8 +23,8 @@ const ExperienceGroup = props => {
                     <Row className="bullet-points">
                         <ul>
                             {props.experienceGroup.work.bulletPoints.map(
-                                bullet => {
-                                    return <li>{bullet}</li>;
+                                (bullet, id) => {
+                                    return <li key={id}>{bullet}</li>;
                                 }
                             )}
                         </ul>
