@@ -1,0 +1,209 @@
+#projects .project-group {
+    text-align: left;
+}
+
+#projects .project-group .column-1 {
+    max-width: 30%;
+}
+
+#projects .project-group .column-2 {
+    max-width: 70%;
+}
+
+#projects .project-group .title {
+    margin-bottom: 10px;
+}
+
+#projects .project-group .title h3 {
+    font-weight: bold;
+    color: #444649;
+}
+
+#projects .project-group h5.subtitle {
+    font-weight: bold;
+}
+
+#projects .project-group .image {
+    margin-bottom: 26px;
+}
+
+#projects .project-group .image img {
+    width: 100%;
+    background: white;
+    /* box-shadow: 0 0.8rem 1rem rgba(0,0,0,.3); */
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+#projects .project-group .technologies ul {
+    padding: 0;
+    columns: 2;
+    column-width: 50%;
+    list-style-type: none;
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    #projects .project-group {
+        margin: 50px 10px 20px 10px;
+    }
+
+    #projects .project-group .title h3 {
+        margin-bottom: 4px;
+    }
+
+    #projects .project-group .column-1 {
+        margin: 20px;
+    }
+
+    #projects .project-group .column-2 {
+        margin: 20px 20px 20px 40px;
+    }
+
+    #projects .project-group .column-2 p {
+        margin-bottom: 10px;
+    }
+
+    #projects .project-group .column-2 ul {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #projects .project-group {
+        margin: 32px 10px 20px 10px;
+    }
+
+    #projects .project-group .title h3 {
+        margin-bottom: 4px;
+    }
+
+    #projects .project-group .column-1 {
+        margin: 10px 16px;
+    }
+
+    #projects .project-group .column-2 {
+        margin: 10px 16px;
+    }
+
+    #projects .project-group .column-2 p {
+        margin-bottom: 8px;
+    }
+
+    #projects .project-group .column-2 ul {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #projects .project-group {
+        margin: 28px 10px 20px 10px;
+    }
+
+    #projects .project-group .title h3 {
+        margin-bottom: 4px;
+    }
+
+    #projects .project-group .column-1 {
+        margin: 8px 12px;
+    }
+
+    #projects .project-group .column-2 {
+        margin: 8px 12px;
+    }
+
+    #projects .project-group .column-2 p {
+        margin-bottom: 8px;
+    }
+
+    #projects .project-group .column-2 ul {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    #projects .project-group {
+        margin: 20px 10px 45px 10px;
+    }
+
+    #projects .project-group .title {
+        justify-content: center;
+    }
+
+    #projects .project-group .title h3 {
+        margin-bottom: 3px;
+    }
+
+    #projects .project-group .body {
+        display: block;
+    }
+
+    #projects .project-group .column-1 {
+        margin: 12px;
+        width: auto;
+        max-width: unset;
+    }
+
+    #projects .project-group .image img {
+        max-width: 100%;
+        max-height: 300px;
+        width: unset;
+    }
+
+    #projects .project-group .column-2 {
+        margin: 0 6px;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #projects .project-group .column-2 p {
+        margin-bottom: 4px;
+    }
+
+    #projects .project-group .column-2 ul {
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 575px) {
+    #projects .project-group {
+        margin: 20px 10px 40px 10px;
+    }
+
+    #projects .project-group .title {
+        justify-content: center;
+    }
+
+    #projects .project-group .title h3 {
+        margin-bottom: 2px;
+    }
+
+    #projects .project-group .body {
+        display: block;
+    }
+
+    #projects .project-group .column-1 {
+        margin: 12px;
+        width: auto;
+        max-width: unset;
+    }
+
+    #projects .project-group .image img {
+        max-width: 100%;
+        max-height: 250px;
+        width: unset;
+    }
+
+    #projects .project-group .column-2 {
+        margin: 0 6px;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #projects .project-group .column-2 p {
+        margin-bottom: 4px;
+    }
+
+    #projects .project-group .column-2 ul {
+        margin-bottom: 4px;
+    }
+}

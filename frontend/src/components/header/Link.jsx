@@ -10,7 +10,7 @@ const Link = props => {
         );
     } else {
         return (
-            <ReactLink to={props.hash} className={props.className}>
+            <ReactLink to={props.link} className={props.className}>
                 {props.children}
             </ReactLink>
         );

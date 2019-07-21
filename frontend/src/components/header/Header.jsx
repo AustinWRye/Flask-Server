@@ -45,38 +45,59 @@ class Header extends Component {
                             <Row>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Col className="logo-collapse">
-                                    <Link hash="#intro" className="link">
+                                    <Link
+                                        link="/"
+                                        hash="#intro"
+                                        className="link"
+                                    >
                                         <img src={RyeLogo} alt="" />
                                     </Link>
                                 </Col>
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Col>
-                                        <Link hash="#about" className="link">
+                                        <Link
+                                            link="/"
+                                            hash="#about"
+                                            className="link"
+                                        >
                                             ABOUT
                                             <div className="link-select" />
                                         </Link>
                                     </Col>
                                     <Col>
-                                        <Link hash="#projects" className="link">
+                                        <Link
+                                            link="/"
+                                            hash="#projects"
+                                            className="link"
+                                        >
                                             PROJECTS
                                             <div className="link-select" />
                                         </Link>
                                     </Col>
                                 </Navbar.Collapse>
                                 <Col className="logo">
-                                    <Link to="#intro" className="link">
+                                    <Link
+                                        link="/"
+                                        hash="#intro"
+                                        className="link"
+                                    >
                                         <img src={RyeLogo} alt="" />
                                     </Link>
                                 </Col>
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Col>
-                                        <Link hash="#skills" className="link">
+                                        <Link
+                                            link="/"
+                                            hash="#skills"
+                                            className="link"
+                                        >
                                             SKILLS
                                             <div className="link-select" />
                                         </Link>
                                     </Col>
                                     <Col>
                                         <Link
+                                            link="/"
                                             hash="#experience"
                                             className="link"
                                         >

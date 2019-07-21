@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 
 import RCMPImg from "../../images/rcmp-logo.png";
 import CPRTImg from "../../images/cprt-waldo.jpg";
@@ -75,13 +75,25 @@ class Experience extends Component {
             <section id="experience" className="section section-light-grey">
                 <ContentSection>
                     <h2 className="title">EXPERIENCE</h2>
-                    {this.state.experienceList.map(experienceGroup => {
-                        return (
-                            <ExperienceGroup
-                                key={experienceGroup.id}
-                                experienceGroup={experienceGroup}
-                            />
-                        );
+                    {this.state.experienceList.map((experienceGroup, id) => {
+                        if (id === 0) {
+                            return (
+                                <Fragment key={experienceGroup.id}>
+                                    <ExperienceGroup
+                                        experienceGroup={experienceGroup}
+                                    />
+                                </Fragment>
+                            );
+                        } else {
+                            return (
+                                <Fragment key={experienceGroup.id}>
+                                    <hr />
+                                    <ExperienceGroup
+                                        experienceGroup={experienceGroup}
+                                    />
+                                </Fragment>
+                            );
+                        }
                     })}
                 </ContentSection>
             </section>
