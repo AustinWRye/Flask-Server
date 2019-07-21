@@ -33,11 +33,11 @@
     }
 
     #skills .skills-group .skill img {
-        height: 100px;
+        height: 70px;
     }
 
     #skills .skills-group .skill .name span {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
@@ -52,11 +52,11 @@
     }
 
     #skills .skills-group .skill img {
-        height: 90px;
+        height: 65px;
     }
 
     #skills .skills-group .skill .name span {
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 
@@ -71,11 +71,11 @@
     }
 
     #skills .skills-group .skill img {
-        height: 80px;
+        height: 60px;
     }
 
     #skills .skills-group .skill .name span {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -90,11 +90,11 @@
     }
 
     #skills .skills-group .skill img {
-        height: 70px;
+        height: 55px;
     }
 
     #skills .skills-group .skill .name span {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 

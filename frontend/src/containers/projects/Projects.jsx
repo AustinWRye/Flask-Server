@@ -24,20 +24,6 @@ class Projects extends Component {
                 ],
                 description:
                     "Personal website for displaying projects, skills and experience"
-            },
-            {
-                id: 2,
-                title: "App",
-                image: CPRTImg,
-                technologies: ["Flask", "HTML5", "CSS3", "ReactJS"],
-                description: "Application on the phone"
-            },
-            {
-                id: 3,
-                title: "Server",
-                image: CUinSpaceImg,
-                technologies: ["Flask", "HTML5", "CSS3", "ReactJS"],
-                description: "Home server for running web api's"
             }
         ]
     };

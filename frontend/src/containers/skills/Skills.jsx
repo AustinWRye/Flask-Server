@@ -54,11 +54,11 @@ class Skills extends Component {
                         icon: CSharpIcon
                     },
                     {
-                        name: "C++",
+                        name: "C",
                         icon: CIcon
                     },
                     {
-                        name: "C",
+                        name: "C++",
                         icon: CppIcon
                     },
                     {
