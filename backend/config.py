@@ -1,6 +1,3 @@
-CLASS_CONFIG = 'DevConfig'
-
-
 class Config():
     ############################################################################
     # flask                                                                    #
@@ -8,21 +5,20 @@ class Config():
     DEBUG = False
     TESTING = False
 
+    HOST = '0.0.0.0'
+    PORT = 5000
 
-class ProductionConfig(Config):
+
+class ProdConfig(Config):
     ############################################################################
     # flask                                                                    #
     ############################################################################
     ENV = 'production'
 
 
-class DevelopmentConfig(Config):
+class DevConfig(Config):
     ############################################################################
     # flask                                                                    #
     ############################################################################
     ENV = 'development'
     DEBUG = True
-
-
-class TestingConfig(Config):
-    TESTING = True

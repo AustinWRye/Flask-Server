@@ -1,8 +1,6 @@
 import React, { Component, Fragment } from "react";
 
 import PersonalWebsiteImg from "../../images/personal-website.png";
-import CPRTImg from "../../images/cprt-waldo.jpg";
-import CUinSpaceImg from "../../images/cuinspace-rocket.png";
 
 import ProjectGroup from "./ProjectGroup";
 import ContentSection from "../../components/content-section/ContentSection";
