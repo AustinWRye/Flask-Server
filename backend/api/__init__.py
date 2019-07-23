@@ -33,4 +33,4 @@ def register_extensions(app):
 
 
 def register_endpoints(api):
-    api.add_resource(Hello, '/')
+    api.add_resource(Hello, '/api/')
