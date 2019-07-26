@@ -17,7 +17,7 @@ class SocialEmail extends Component {
     render() {
         return (
             <Fragment>
-                <Button variant="link" onClick={this.handleShow}>
+                <Button variant="link" aria-label="Email Button" onClick={this.handleShow}>
                     <img src={this.props.social.icon} alt="" />
                 </Button>
 
