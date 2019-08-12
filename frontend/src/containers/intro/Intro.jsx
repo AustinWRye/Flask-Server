@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
-import ListSocial from "../../components/list-social/ListSocial";
-import "./Intro.css";
+import SocialsList from "../../components/socials-list/SocialsList";
+import "./Intro.scss";
 
 class Intro extends Component {
     state = {
@@ -14,7 +14,7 @@ class Intro extends Component {
     }
 
     handleScroll = () => {
-        // Title fade
+        // Title fade on scroll
         let height = this.refs.intro.clientHeight;
         if (window.pageYOffset >= height * 0.25) {
             this.refs.title.classList.add("hide");
@@ -27,18 +27,20 @@ class Intro extends Component {
 
     render() {
         return (
-            <section id="intro" className="section section-trans" ref="intro">
-                <Container>
-                    <div className="title" ref="title">
-                        <h2 className="subtitle">
-                            SOFTWARE/ELECTRICAL ENGINEERING
-                        </h2>
-                        <h1 className="title">AUSTIN RYE</h1>
-                        <hr className="seperator" />
-                        <Container className="d-flex justify-content-center list-social">
-                            <ListSocial />
-                        </Container>
-                    </div>
+            <section id="intro" ref="intro">
+                <Container fluid className="h-100">
+                    <Row className="h-100" ref="title">
+                        <Col className="align-self-center">
+                            <h3 className="subtitle">
+                                SOFTWARE/ELECTRICAL ENGINEERING
+                            </h3>
+                            <h1 className="title">AUSTIN RYE</h1>
+                            <div className="seperator"><hr /></div>
+                            <div className="d-flex justify-content-center">
+                                <SocialsList />
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
         );

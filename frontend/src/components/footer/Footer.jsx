@@ -1,16 +1,20 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
-import ListSocial from "../list-social/ListSocial";
-import "./Footer.css";
+import SocialsList from "../socials-list/SocialsList";
+import "./Footer.scss";
 
 const Footer = () => {
     return (
-        <section id="footer" className="section section-dark">
-            <Container className="d-flex justify-content-center list-social">
-                <ListSocial />
+        <section id="footer">
+            <Container fluid>
+                <Row className="socials-list d-flex justify-content-center">
+                    <SocialsList />
+                </Row>
+                <Row className="name">
+                    <h5>Austin Rye</h5>
+                </Row>
             </Container>
-            <span>Austin Rye</span>
         </section>
     );
 };

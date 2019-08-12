@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
 
-import SocialGeneral from "./SocialGeneral";
-import SocialResume from "./SocialResume";
-import SocialEmail from "./SocialEmail";
+import SocialsGeneral from "./SocialsGeneral";
+import SocialsResume from "./SocialsResume";
+import SocialsEmail from "./SocialsEmail";
 
 import GitHubIcon from "../../icons/github.svg";
 import LinkedInIcon from "../../icons/linkedin.svg";
 import EmailIcon from "../../icons/email.svg";
 import ResumeIcon from "../../icons/resume.svg";
 import Resume from "../../files/resume.pdf";
-import "./ListSocial.css";
+import "./SocialsList.scss";
 
-class ListSocial extends Component {
+class SocialsList extends Component {
     state = {
-        listSocials: [
+        socialsList: [
             {
                 id: "1",
                 name: "GitHub",
@@ -44,35 +44,25 @@ class ListSocial extends Component {
 
     getSocialElement(social) {
         if (social.name === "Resume") {
-            return (
-                <Col key={social.id}>
-                    <SocialResume social={social} />
-                </Col>
-            );
+            return <SocialsResume social={social} />;
         } else if (social.name === "Email") {
-            return (
-                <Col key={social.id}>
-                    <SocialEmail social={social} />
-                </Col>
-            );
+            return <SocialsEmail social={social} />;
         } else {
-            return (
-                <Col key={social.id}>
-                    <SocialGeneral social={social} />
-                </Col>
-            );
+            return <SocialsGeneral social={social} />;
         }
     }
 
     render() {
         return (
-            <Row>
-                {this.state.listSocials.map(social => {
-                    return this.getSocialElement(social);
+            <Row className="socials-list">
+                {this.state.socialsList.map(social => {
+                    return <Col key={social.id}>
+                        {this.getSocialElement(social)}
+                    </Col>;
                 })}
             </Row>
         );
     }
 }
 
-export default ListSocial;
+export default SocialsList;

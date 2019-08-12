@@ -5,11 +5,11 @@ import RCMPImg from "../../images/rcmp-logo.png";
 import CPRTImg from "../../images/cprt-waldo.jpg";
 import CUinSpaceImg from "../../images/cuinspace-rocket.png";
 
-import ExperienceGroup from "./ExperienceGroup";
+import WriteUpGroup from "./WriteUpGroup";
 
-class Experience extends Component {
+class WriteUps extends Component {
     state = {
-        experienceList: [
+        writeUpsList: [
             {
                 id: 1,
                 title: "RF and Wireless Systems Engineer",
@@ -72,26 +72,26 @@ class Experience extends Component {
 
     render() {
         return (
-            <section id="experience">
+            <section id="write-ups">
                 <Container fluid>
                     <Row className="heading">
-                        <h2>EXPERIENCE</h2>
+                        <h2>WRITE-UPS</h2>
                     </Row>
                 </Container>
-                <Container className="experience-groups" fluid>
-                    {this.state.experienceList.map((experienceGroup, id) => {
+                <Container className="write-up-groups" fluid>
+                    {this.state.writeUpsList.map((writeUpGroup, id) => {
                         if (id === 0) {
                             return (
-                                <div key={experienceGroup.id} className="experience-group">
-                                    <ExperienceGroup experienceGroup={experienceGroup} />
+                                <div key={writeUpGroup.id} className="write-up-group">
+                                    <WriteUpGroup writeUpGroup={writeUpGroup} />
                                 </div>
                             );
                         } else {
                             return (
                                 <Fragment>
                                     <hr />
-                                    <div key={experienceGroup.id} className="experience-group">
-                                        <ExperienceGroup experienceGroup={experienceGroup} />
+                                    <div key={writeUpGroup.id} className="write-up-group">
+                                        <WriteUpGroup writeUpGroup={writeUpGroup} />
                                     </div>
                                 </Fragment>
                             );
@@ -103,4 +103,4 @@ class Experience extends Component {
     }
 }
 
-export default Experience;
+export default WriteUps;

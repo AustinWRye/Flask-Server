@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Container, Row } from "react-bootstrap";
 
 import PythonIcon from "../../icons/python.png";
 import CSharpIcon from "../../icons/csharp.png";
@@ -36,7 +37,6 @@ import AltiumIcon from "../../icons/altium.png";
 import EagleIcon from "../../icons/eagle.png";
 
 import SkillGroup from "./SkillGroup";
-import ContentSection from "../../components/content-section/ContentSection";
 
 class Skills extends Component {
     state = {
@@ -198,18 +198,21 @@ class Skills extends Component {
 
     render() {
         return (
-            <section id="skills" className="section section-white">
-                <ContentSection>
-                    <h2 className="title">SKILLS</h2>
+            <section id="skills">
+                <Container fluid>
+                    <Row className="heading">
+                        <h2>SKILLS</h2>
+                    </Row>
+                </Container>
+                <Container className="skills-groups" fluid>
                     {this.state.skillsList.map(skillGroup => {
                         return (
-                            <SkillGroup
-                                key={skillGroup.id}
-                                skillGroup={skillGroup}
-                            />
+                            <Row key={skillGroup.id} className="skills-group">
+                                <SkillGroup skillGroup={skillGroup} />
+                            </Row>
                         );
                     })}
-                </ContentSection>
+                </Container>
             </section>
         );
     }

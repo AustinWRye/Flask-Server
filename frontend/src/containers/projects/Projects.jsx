@@ -1,9 +1,8 @@
 import React, { Component, Fragment } from "react";
+import { Container, Row } from "react-bootstrap";
 
 import PersonalWebsiteImg from "../../images/personal-website.png";
-
 import ProjectGroup from "./ProjectGroup";
-import ContentSection from "../../components/content-section/ContentSection";
 
 class Projects extends Component {
     state = {
@@ -28,26 +27,30 @@ class Projects extends Component {
 
     render() {
         return (
-            <section id="projects" className="section section-light-grey">
-                <ContentSection>
-                    <h2 className="title">PROJECTS</h2>
+            <section id="projects">
+                <Container fluid>
+                    <Row className="heading">
+                        <h2>PROJECTS</h2>
+                    </Row>
+                </Container>
+                <Container className="project-groups" fluid>
                     {this.state.projectList.map((projectGroup, id) => {
                         if (id === 0) {
                             return (
-                                <Fragment key={projectGroup.id}>
+                                <div key={projectGroup.id} className="project-group">
                                     <ProjectGroup projectGroup={projectGroup} />
-                                </Fragment>
+                                </div>
                             );
                         } else {
                             return (
-                                <Fragment key={projectGroup.id}>
+                                <div key={projectGroup.id} className="project-group">
                                     <hr />
                                     <ProjectGroup projectGroup={projectGroup} />
-                                </Fragment>
+                                </div>
                             );
                         }
                     })}
-                </ContentSection>
+                </Container>
             </section>
         );
     }

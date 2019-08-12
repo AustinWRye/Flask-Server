@@ -1,0 +1,66 @@
+#about {
+
+    background: #ffffff;
+    color: #404040;
+
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    .container-fluid {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .quote {
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    @media (min-width: 1200px) {
+
+        .quote {
+            font-size: 18px;
+        }
+
+    }
+
+    @media (max-width: 1199px) and (min-width: 992px) {
+
+        .quote {
+            font-size: 18px;
+        }
+
+    }
+
+    @media (max-width: 991px) and (min-width: 768px) {
+
+        .quote {
+            font-size: 18px;
+        }
+
+    }
+
+    @media (max-width: 767px) and (min-width: 576px) {
+
+        .quote {
+            font-size: 18px;
+        }
+
+    }
+
+    @media (max-width: 575px) {
+
+        .quote {
+            font-size: 18px;
+        }
+
+    }
+
+}
