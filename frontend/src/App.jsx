@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 
+import { config } from './config'
+
 import Intro from "./containers/intro/Intro";
 import Header from "./components/header/Header";
 import About from "./containers/about/About";
